@@ -1,0 +1,67 @@
+/*
+___________________________________
+Une valeur relative.
+
+taille avec des mots en anglais:
+___________________________________
+
+xx-small  : minuscule ;
+
+x-small  : très petit ;
+
+small  : petit ;
+
+medium  : moyen ;
+
+large  : grand ;
+
+x-large  : très grand ;
+
+xx-large  : euh… gigantesque.
+
+p
+{
+    font-size: small;
+}
+h1
+{
+    font-size: large;
+}
+p
+{
+    font-size: 0.8em;
+}
+h1
+{
+    font-size: 1.3em;
+}
+
+
+_________________________
+
+La police 
+police personnalisée avec @font-face
+__________________________
+p
+{
+    font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+@font-face {
+    font-family: 'MaSuperPolice';
+    src: url('MaSuperPolice.eot') format('eot'),
+         url('MaSuperPolice.woff') format('woff'),
+         url('MaSuperPolice.ttf') format('truetype'),
+         url('MaSuperPolice.svg') format('svg');
+}
+*/
+p{
+    text-align: justify;
+}
+#imageflottante
+{
+    float: left;
+}
+.dessous
+{
+    clear: both;
+}
