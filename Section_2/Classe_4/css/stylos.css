@@ -1,0 +1,67 @@
+/*
+    p
+    {
+        border-left: 2px solid black;
+        border-right: 2px solid black;
+    }
+___________________________________
+Bordures arrondies
+
+    p
+    {
+        border-radius: 10px;
+    }
+    On peut aussi préciser la forme de l'arrondi pour chaque coin. Dans ce cas, indiquez quatre valeurs :
+
+    p
+    {
+        border-radius: 10px 5px 10px 5px;
+    }
+    Les valeurs correspondent aux angles suivants dans cet ordre :
+
+    En haut à gauche.
+
+    En haut à droite.
+
+    En bas à droite.
+
+    En bas à gauche.
+____________________________________
+Les ombres
+
+    La propriété box-shadow  s'applique à tout le bloc et prend quatre valeurs dans l'ordre suivant :
+
+    Le décalage horizontal de l'ombre.
+
+    Le décalage vertical de l'ombre.
+
+    L'adoucissement du dégradé.
+
+    La couleur de l'ombre.
+
+    p
+    {
+        box-shadow: 6px 6px 0px black;
+    }
+    On peut aussi rajouter une cinquième valeur facultative : inset  . Dans ce cas, l'ombre sera placée à l'intérieur du bloc, pour donner un effet enfoncé :
+
+     p
+    {
+        box-shadow: 6px 6px 6px black inset;
+    }  
+____________________________________________
+ l'ombre du texte
+    
+    Avec text-shadow  , vous pouvez ajouter une ombre directement sur les lettres de votre texte ! Les valeurs fonctionnent exactement de la même façon que box-shadow  : décalage, adoucissement et couleur.
+    p
+    {
+        text-shadow: 2px 2px 4px black;
+    }
+
+*/
+
+p
+{
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 6px 6px 0px black;
+}
