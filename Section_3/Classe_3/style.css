@@ -1,0 +1,21 @@
+#conteneur
+{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    height: 350px; /* Un peu de hauteur pour que les éléments aient la place de bouger */
+}
+
+
+.element_1{
+    background-color: blue;
+    flex: 1;
+}
+.element_2{
+    background-color: red;
+    flex:2;
+}
+.element_3{
+    background-color: green;  
+    flex: 1;
+}
