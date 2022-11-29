@@ -1,0 +1,131 @@
+#navBar{
+    
+    background-color: #f8f5f0;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#nb-Buttom{
+    background-color: #a38271;
+    color: #f8f5f0;
+    width: 6rem;
+    height: 2.5rem;
+    cursor: pointer;
+}
+
+#nb-imgLogo{
+    height: 3rem;
+    width: 3rem;
+    
+    padding-top: 0.55rem;
+    
+}
+#nb-logo{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.nb-ListItem{
+    list-style: none;
+    margin-right: 2rem;
+}
+.nb-link{
+    text-decoration: none;
+    color:black;
+}
+.lg-subTxt{
+    margin-top: -1rem;
+}
+.img-menuContainer{
+    display: none;
+}
+/*
+*
+*
+*   NAVBAR RESPONSIVE PROPERTY FOR MOBILE PHONES
+*
+*
+*/
+@media only screen and (max-width: 768px) {
+    
+    .nb-ListItems{
+      display:none;
+    }
+    .text-logo{
+        font-size: 1.2rem;
+    }
+    .lg-subTxt{
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    .img-menuContainer{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 2rem ;
+        
+    }
+    #img-menu{
+        width: 2rem;
+        height: 2rem;
+    }
+    #navBar{
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nb-imgLogo{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    #nb-logo{
+        margin-left: 2rem;
+    }
+
+  }
+/*
+*
+*
+*   NAVBAR RESPONSIVE PROPERTY FOR TABLETS
+*
+*
+*/
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .nb-ListItems{
+      display:none;
+    }
+    .text-logo{
+        font-size: 1.2rem;
+    }
+    .lg-subTxt{
+        font-size: 0.8rem;
+        margin-top: -0.5rem;
+    }
+    .img-menuContainer{
+        display: block;
+        width: 2rem;
+        height: 2rem;
+        margin-right: 2rem ;
+        
+    }
+    #img-menu{
+        width: 2rem;
+        height: 2rem;
+    }
+    #navBar{
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nb-imgLogo{
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    #nb-logo{
+        margin-left: 2rem;
+    }
+
+  }
