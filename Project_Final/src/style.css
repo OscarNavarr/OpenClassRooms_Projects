@@ -1,3 +1,10 @@
+/*
+*
+*
+*   HEADER SECTION
+*
+*
+*/
 #navBar{
     
     background-color: #f8f5f0;
@@ -12,6 +19,7 @@
     width: 6rem;
     height: 2.5rem;
     cursor: pointer;
+    border-radius: 0.3rem;
 }
 
 #nb-imgLogo{
@@ -44,7 +52,32 @@
 /*
 *
 *
-*   NAVBAR RESPONSIVE PROPERTY FOR MOBILE PHONES
+*   WELCOME SECTION
+*
+*
+*/
+.bg-img{
+    background-image: url("./img/photo_01.jpg");
+    background-color: black;
+    height: 75vh;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jstfy-itemsCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.txt-bold{
+    font-weight: bold;
+}
+/*
+*
+*
+*   PROPERTY FOR MOBILE PHONES
 *
 *
 */
@@ -83,12 +116,46 @@
     #nb-logo{
         margin-left: 2rem;
     }
+    /*
+    *
+    *WELCOME SECTION
+    *
+    */
+    .xs-textSize{
+        font-size: 1.4rem;
+    }
+    .jstfy-itemsCenter{
+        justify-content: space-around;
+    }
+    /*
+    *
+    *   ABOUT SECTION
+    *
+    */
+    .img-section{
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    #img-about{
+        width: 80%;
+        margin: auto;
+    }
+    #about{
+        display: block;
+        margin-top: 5rem;
+        justify-items: center;
+        padding: 3rem;
+    }
+    .xs-mt-5{
+        margin-top: 5rem;
+    }
 
   }
 /*
 *
 *
-*   NAVBAR RESPONSIVE PROPERTY FOR TABLETS
+*  PROPERTY FOR TABLETS
 *
 *
 */
