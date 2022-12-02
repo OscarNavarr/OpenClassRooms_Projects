@@ -77,6 +77,74 @@
 /*
 *
 *
+*   ABOUT SECTION
+*
+*
+*/
+.flex-1{
+
+    flex: 1;
+}
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+    
+    
+}
+.img-about{
+    width: 30rem;
+    height: 30rem;
+}
+
+.pt-5{
+    padding-top: 5rem;
+   
+}
+.mt-5{
+    margin-top: 13rem;
+}
+/*
+*
+*
+*   SERVICE SECTION
+*
+*
+*/
+
+.service{
+    background-color: #f8f5f0;
+    min-height: 30rem;
+}
+.txt-center{
+    text-align: center;
+}
+.p-3{
+    padding: 3rem;
+}
+.jstfy-around{
+    justify-content: space-around;
+}
+.jstfy-center{
+    justify-content: center;
+}
+.pt-1{
+    padding-top: 1rem;
+}
+.img-service{
+    height: 5rem;
+    width: 5rem;
+}
+
+/*
+*
+*
 *   PROPERTY FOR MOBILE PHONES
 *
 *
@@ -132,23 +200,24 @@
     *   ABOUT SECTION
     *
     */
-    .img-section{
-        width:100%;
-        display: flex;
-        justify-content: center;
-    }
-    #img-about{
-        width: 80%;
-        margin: auto;
-    }
-    #about{
+    
+    .xs-about{
         display: block;
         margin-top: 5rem;
         justify-items: center;
         padding: 3rem;
     }
+    .xs-img-about{
+        width: 90%;
+    }
     .xs-mt-5{
         margin-top: 5rem;
+    }
+    .xs-mt-2{
+        margin-top: 2rem;
+    }
+    .xs-p-0{
+        padding: 0rem;
     }
 
   }
@@ -194,5 +263,11 @@
     #nb-logo{
         margin-left: 2rem;
     }
-
+    .img-about{
+        width: 20rem;
+        height: 20rem;
+    }
+    .xs-pt-0{
+        padding-top: 0rem;
+    }
   }
