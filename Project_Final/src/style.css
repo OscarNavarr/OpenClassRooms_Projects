@@ -5,8 +5,13 @@
 *
 *
 */
+@font-face {
+    font-family: 'Playfair_Display';
+    src: url('./fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+}
 body{
     margin: 0rem;
+    font-family: 'Playfair_Display','sans-serif';
 }
 #navBar{
     
@@ -54,7 +59,6 @@ body{
 .img-menuContainer{
     display: none;
 }
-
 /*
 *
 *
@@ -124,6 +128,12 @@ body{
 }
 .algn-items-center{
     align-items: center;
+}
+.txt-white{
+    color:white;
+}
+.ts-1{
+    font-size: 1.1rem;
 }
 /*
 *
@@ -195,6 +205,42 @@ body{
 /*
 *
 *
+*   OPINION SECTION
+*
+*
+*/
+.opinion{
+    min-height: 30rem;
+}
+.border-black-1{
+    border: 1px solid #a38271;
+}
+.person_card{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+}
+.card-body{
+    max-width: 13rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.img-card-bg{
+    width: 8.8rem;
+    height: 8.8rem;
+    border-radius: 100%;
+    background-color:#a38271;
+}
+.card-txt-read-more{
+    cursor: pointer;
+}
+.card-txt-read-more:hover{
+    font-size: 1.1rem;
+}
+/*
+*
+*
 *   CONTACT SECTION
 *
 *
@@ -227,9 +273,7 @@ body{
 .h-5{
     height: 5rem;
 }
-.txt-xl{
-    font-size: 3rem;
-}
+
 .txt-lg{
     font-size: 2.5rem;
 }
@@ -365,6 +409,9 @@ body{
     .xs-visible-none{
         display: none;
     }
+    .xs-txt-xl{
+        font-size: 3rem;
+    }
     /*
     *
     *   SERVICE SECTION
@@ -392,6 +439,29 @@ body{
     .xs-min-width{
         min-width: none;
     }
+    .xs-txt-left{
+        text-align: left;
+    }
+    /*
+    *
+    *   OPINION SECTION
+    *
+    */
+    .xs-block{
+        display: block;
+    }
+    .xs-pl-3{
+        padding-left: 3rem;
+    }
+    .xs-pr-3{
+        padding-right: 3rem;
+    }
+    .xs-mb-3{
+        margin-bottom: 3rem;
+    }
+    .xs-p-2{
+        padding: 2rem;
+    }
     /*
     *
     *   CONTACT SECTION
@@ -414,6 +484,9 @@ body{
     }
     .xs-jstfy-center{
         justify-content: center;
+    }
+    .xs-form-elements{
+        width: 17rem;
     }
   }
 /*
