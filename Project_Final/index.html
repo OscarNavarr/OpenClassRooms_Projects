@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>KATERINA ZUEVA</title>
 </head>
     <body>
@@ -55,7 +56,7 @@
                     <img id="img-menu" src="./src/img/menu.png"  alt="menu.png">
                 </div>
                 
-            </div>
+            
         
         </header>
         
@@ -85,18 +86,18 @@
         *
         -->
 
-        <section class="about xs-about" id="About">
+        <section class="about xs-about" data-aos="fade-in" data-aos-duration="1500" id="About">
             <h2 class="visible visible-none txt-center xs-txt-xl mb-5">About me</h2>
 
-            <div class="flex-1 img-section xs-img-section">
+            <div class="flex-1 img-section xs-img-section" data-aos="fade-right" data-aos-duration="1500">
                 <img class="img-about xs-img-about" src="./src/img/photo_2.jpg" alt="img_katerina">    
             </div>
 
-            <div class="flex-1 pr-10 d-flex jstfy-center algn-items-center xs-pt-0 xs-p-0 xs-mt-5">
+            <div class="flex-1 pr-10 d-flex jstfy-center algn-items-center xs-pt-0 xs-p-0 xs-mt-5" data-aos="fade-left" data-aos-duration="1500">
                 <div>
                     <h2 class="xs-ts-1/5 xs-visible-none lg-visible m-block-start-0 m-block-end-0">About me</h2>
 
-                    <h3>KATERINA ZUEVA SEXOLOGIST PHYCHOTHERAPIST</h3>
+                    <h3>KATERINA ZUEVA, SEXOLOGIST PHYCHOTHERAPIST.</h3>
                     
                     <p class="ts-1">If you feel that something is not working well in your life, that you need a change, but you don't know where to start...</p>
 
@@ -117,12 +118,17 @@
         *
         *
     -->
-        <section class="service pt-5 xs-service" id="Service">
+        <section class="service pt-5 xs-service"  id="Service" data-aos="fade-in" data-aos-duration="1500">
             
             <h1 class="txt-center xs-mb-3 xs-txt-xl">Services</h1>
             
             <div class="d-flex xs-flex-wrap jstfy-around ">
-                <div class="p-3 max-width-9  xs-mt-4 xs-d-flex xs-p-none  ">
+                <!--
+                    *
+                    * SERVICE 1
+                    *
+                -->
+                <div class="p-3 max-width-9  xs-mt-4 xs-d-flex xs-p-none" data-aos="slide-up" data-aos-duration="2000">
          
                     <div class="d-flex jstfy-center ">
                        
@@ -138,8 +144,12 @@
                     </div>
                 
                 </div>
-                
-                <div class="p-3 max-width-9 xs-mt-4 xs-d-flex xs-p-none  ">
+                <!--
+                    *
+                    * SERVICE 2
+                    *
+                -->
+                <div class="p-3 max-width-9 xs-mt-4 xs-d-flex xs-p-none" data-aos="slide-up" data-aos-duration="2500">
                     <div class="d-flex jstfy-center">
                         <img class="img-service xs-pt-1" src="./src/icons/mental_health.png" alt="mental_health">
                     </div>
@@ -151,8 +161,12 @@
 
                     </div>
                 </div>
-                
-                <div class="p-3 max-width-9 mb-5 xs-mt-4 xs-d-flex xs-p-none">
+                <!--
+                    *
+                    * SERVICE 3
+                    *
+                -->
+                <div class="p-3 max-width-9 mb-5 xs-mt-4 xs-d-flex xs-p-none" data-aos="slide-up" data-aos-duration="3000">
                     <div class="d-flex jstfy-center">
                         <img class="img-service xs-pt-1" src="./src/icons/couple_240px.png" alt="couple">
                     </div>
@@ -164,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex jstfy-center pb-2">
+            <div class="d-flex jstfy-center pb-2" data-aos="slide-up" data-aos-duration="2000">
                 <button class="xs-mt-2 section-Buttom">Schedule your appointment to meet me</button>
             </div>
 
@@ -180,11 +194,11 @@
         <section class="blog xs-about txt-white" id="Blog">
             <h2 class="visible visible-none txt-center xs-txt-xl mb-5">Blog</h2>
 
-            <div class="flex-1 img-section xs-img-section ">
+            <div class="flex-1 img-section xs-img-section" data-aos="fade-in" data-aos-duration="1500">
                 <img class="img-about xs-img-about" src="./src/img/photo_3.jpg" alt="img_katerina">    
             </div>
 
-            <div class="flex-1 pr-10 d-flex jstfy-center algn-items-center xs-pt-0 xs-p-0 xs-mt-5">
+            <div class="flex-1 pr-10 d-flex jstfy-center algn-items-center xs-pt-0 xs-p-0 xs-mt-5" data-aos="slide-left" data-aos-duration="2500">
                 <div>
                     <h2 class="xs-ts-1/5 xs-visible-none lg-visible">Blog</h2>
     
@@ -206,12 +220,12 @@
         *
         -->    
         <div class="opinion" >
-            <h1 class="pt-2 txt-center xs-p-2">See what my patients are saying. </h1>
+            <h1 class="pt-2 txt-center xs-p-2" data-aos="fade-in" data-aos-duration="1500">See what my patients are saying. </h1>
 
-            <div class="pt-5 pb-2 d-flex jstfy-around xs-block xs-pl-3 xs-pr-3">
-                <div class="border-black-1 p-2 xs-mb-3">
+            <div class="pt-5 pb-2 d-flex jstfy-around xs-block xs-pl-3 xs-pr-3 lg-pt-2">
+                <div class="border-black-1 p-2 xs-mb-3 lg-w-17 lg-max-heigth" data-aos="fade-in" data-aos-duration="4000">
                     <div class="card-header">
-                        <div class=" d-flex jstfy-center">
+                        <div class="d-flex jstfy-center">
                             <div class="jstfy-itemsCenter img-card-bg">
                                 
                                 <img class="person_card" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaQHbWyIEiCUuNhANUn9oY-fB8VorAIJoJPQ&usqp=CAU" alt="person_1">
@@ -221,7 +235,7 @@
                         <h3 class="txt-center"> Sasha Brito. </h3>
                     
                     </div>
-                    <div class="card-body">
+                    <div class="card-body lg-card-body">
                         <p class="ts-1">Katerina is the best psychologist for sexual therapy.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium, commodi eligendi fugiat asperiores at dolores.</p>
                     </div>
                     <hr>
@@ -235,7 +249,7 @@
                 -->
 
 
-                <div class="border-black-1 p-2 xs-mb-3">
+                <div class="border-black-1 p-2 xs-mb-3 lg-w-17" data-aos="fade-in" data-aos-duration="3000">
                     <div class="card-header">
                         <div class=" d-flex jstfy-center">
                             <div class="jstfy-itemsCenter img-card-bg">
@@ -247,7 +261,7 @@
                         <h3 class="txt-center"> Eric Serdar. </h3>
                     
                     </div>
-                    <div class="card-body">
+                    <div class="card-body lg-card-body">
                         <p class="ts-1">Katerina is the best psychologist for sexual therapy.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium, commodi eligendi fugiat asperiores at dolores.</p>
                     </div>
                     <hr>
@@ -262,7 +276,7 @@
                 -->
 
 
-                <div class="border-black-1 p-2 ">
+                <div class="border-black-1 p-2 lg-w-17" data-aos="fade-in" data-aos-duration="2000">
                     <div class="card-header">
                         <div class=" d-flex jstfy-center">
                             <div class="jstfy-itemsCenter img-card-bg">
@@ -274,7 +288,7 @@
                         <h3 class="txt-center"> Michelle Garrett. </h3>
                     
                     </div>
-                    <div class="card-body">
+                    <div class="card-body lg-card-body">
                         <p class="ts-1">Katerina is the best psychologist for sexual therapy.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil accusantium, commodi eligendi fugiat asperiores at dolores.</p>
                     </div>
                     <hr>
@@ -329,12 +343,12 @@
 
             <div >
                 
-                <h3 class="txt-lg xs-txt-center"> Contact me</h4>
+                <h3 class="txt-lg xs-txt-center lg-m-block-end-0 lg-pt-2"> Contact me</h4>
                 <div class="d-flex jstfy-center">
-                    <div>
-                        <h4 class="max-width-9 xs-pl-1 xs-pr-1 xs-txt-center md-txt-center"> If there is something that worries you, ask me, don't be ashamed, I am here to listen and help you without judging you. Feel free to tell me what you need. </h4>
+                    <div class="max-width-20 lg-max-width-30">
+                        <h4 class="xs-pl-1 xs-pr-1 xs-txt-center md-txt-center"> If there is something that worries you, ask me, don't be ashamed, I am here to listen and help you without judging you. Feel free to tell me what you need. </h4>
                 
-                        <h4 class="max-width-9 xs-pl-1 xs-pr-1 xs-txt-center md-txt-center"> Fill in the following form and I will answer you as quickly as possible.</h4>
+                        <h4 class="xs-pl-1 xs-pr-1 xs-txt-center md-txt-center"> Fill in the following form and I will answer you as quickly as possible.</h4>
                     </div>
                 </div>
                 
@@ -343,14 +357,14 @@
                     <div>
                         <form class="xs-pl-1 xs-pr-1">
                             <p>Email:</p>
-                            <input class="form-elements xs-form-elements h-2" type="email" placeholder="exemple@gmail.com" name="email" >
+                            <input class="form-elements xs-form-elements lg-form-elements h-2" type="email" placeholder="exemple@gmail.com" name="email" >
                             
                             
                             <p>Name:</p>
-                            <input class="form-elements xs-form-elements h-2" type="text"placeholder="Petter Pain" name="name" >
+                            <input class="form-elements xs-form-elements lg-form-elements h-2" type="text"placeholder="Petter Pain" name="name" >
                             
                             <p>Your question:</p>
-                            <input class="form-elements  xs-form-elements h-5" type="text" name="question" >
+                            <input class="form-elements  xs-form-elements lg-form-elements h-5" type="text" name="question" >
                             
                             <br>
                             <button class="xs-mt-2 mt-2" id="nb-Buttom">Send</button>
@@ -372,5 +386,9 @@
                 <h5 class="txt-center pt-5 pb-2 m-block-start-0 m-block-end-0">All right reserved copyright © 2022 Oscar A. Navarro </h5>
            
         </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
